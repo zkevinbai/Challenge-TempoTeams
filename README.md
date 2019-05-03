@@ -9,35 +9,25 @@ http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/${us
 
 http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/${teamId}
 
-
-
 Technologies
 ---
-Aurelian is built with only Vanilla Javascript, HTML5, CSS3, and the D3 library.
+* React for the frontend
+* react-router-dom for routing
+* Redux for state management 
+* Axios for API calls
 
-No web frameworks were used, instead, DOM manipulation was used to fetch user input data. 
-
-Design
+How to run:
 ---
-Aurelian was designed with a simple theme: Elegance over Complexity.  
-I want the user experience to be seemless and intuitive.
+1. Download this repo
+2. Drag (or open) the root file to your terminal
+3. run the following commands
+   1. npm install
+   2. npm start
 
 Features
 ---
-* Dynamic update of finacial fields next to sliders
-* Live rerender of D3 Sankey visualization on new user input
-* Fully repositionable nodes to allow for easy drag and drop comparision
+* teams view
+  * each team links to the 
+* At the top of the teams overview page, add an input field, which filters the teams when the input value changes. This input field could also be used in other pages of your app, e.g. for filtering out team members in the team page.
 
-Feature GIFs
----
-## Dynamic Update
-<img src="https://github.com/zkevinbai/Aurelian/blob/master/assets/gifs/dynamicUpdate.gif" align="center"/>
 
-## Live Rerender
-<img src="https://github.com/zkevinbai/Aurelian/blob/master/assets/gifs/liveRender.gif" align="center"/>
-
-## Fully Repositionable Nodes
-<img src="https://github.com/zkevinbai/Aurelian/blob/master/assets/gifs/dragAndDrop.gif" align="center"/>
-
-Code Snippets
----
