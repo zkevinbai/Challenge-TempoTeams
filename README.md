@@ -20,7 +20,8 @@ Technologies
 How to run:
 ---
 1. Download this repo
-2. Drag (or open) the root file to your terminal
+2. Drag the root file to your terminal
+   1. or open in terminal if you know how to navigate using cd(change directory)
 3. run the following commands
    1. npm install
    2. npm start
