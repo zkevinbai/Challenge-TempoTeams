@@ -37,7 +37,7 @@ Features
 
 Features I Could Add
 ---
-  * single page application
+  * make this a single page application
     * because I am using react to manage state, it was not necessary to do routing
   * user index page
     * shows all the users
