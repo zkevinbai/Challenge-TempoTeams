@@ -1,10 +1,15 @@
-TempoTeams <img src="https://github.com/zkevinbai/Aurelian/blob/master/assets/favicon.png" alt="Aurelian Logo" align="center" height="50px" />
+TempoTeams <img src="https://github.com/zkevinbai/Challenge-TempoTeams/blob/master/public/favicon.png" alt="Aurelian Logo" align="center" height="50px" />
 ======
+TempoTeams is a simple UI for visualizing the data from the following API endpoints:
+http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/
+
+http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/
+
+http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/${userId}
+
+http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/${teamId}
 
 
-[Aurelian](https://zkevinbai.github.io/Aurelian/) is a frontend only tool designed to help you visualize and forecast your finances.
-
-I built this over the course of 4 days from March 13 to March 17 2019 to improve my Javascript skills.
 
 Technologies
 ---
