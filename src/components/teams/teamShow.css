@@ -1,0 +1,45 @@
+.team-show{
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    
+    align-items: center;
+    justify-items: center;
+}
+
+.team-name{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.home-link{
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.user-filter{
+    grid-column: 2/5;
+    grid-row: 1;
+}
+
+.user-box{
+    grid-column: 2/5;
+    grid-row: 2/5;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.user-box-item{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    background: lightblue;
+}
+
