@@ -1,13 +1,14 @@
 TempoTeams <img src="https://github.com/zkevinbai/Challenge-TempoTeams/blob/master/public/favicon.png" alt="Aurelian Logo" align="center" height="50px" />
 ======
 TempoTeams is a simple UI for visualizing the data from the following API endpoints:
-http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/
 
-http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/
+[All Users](http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/)
 
-http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/${userId}
+[All Teams](http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/)
 
-http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/${teamId}
+[Single User](http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/user/${userId})
+
+[Single Team](http://tempo-test.herokuapp.com/7d1d085e-dbee-4483-aa29-ca033ccae1e4/1/team/${teamId})
 
 Technologies
 ---
