@@ -26,8 +26,22 @@ How to run:
 
 Features
 ---
-* teams view
-  * each team links to the 
-* At the top of the teams overview page, add an input field, which filters the teams when the input value changes. This input field could also be used in other pages of your app, e.g. for filtering out team members in the team page.
+* Teams index view
+  * each team links to the url for the respective team show page
+* At the top of the teams index page
+  * there is a dropdown that will change what team is rendered
+* At the top of the team show page
+  * there is a dropdown that will change what team member is rendered
+
+Features I Could Add
+---
+  * single page application
+    * because I am using react to manage state, it was not necessary to do routing
+  * user index page
+    * shows all the users
+  * user show page
+    * shows detailed information about each user
+      * which teams they lead
+      * which teams they are on
 
 
